@@ -4,17 +4,22 @@ import {FormsModule} from '@angular/forms';
 import {HttpModule} from '@angular/http';
 
 import {AppComponent} from './app.component';
-import {FutureModule} from './future/future.module';
+import {TestComponent} from './test/test.component';
+import {HelloComponent} from './hello/hello.component';
+import {GoodbyeComponent} from './goodbye/goodbye.component';
+
 
 @NgModule({
     declarations: [
-        AppComponent
+        AppComponent,
+        TestComponent,
+        HelloComponent,
+        GoodbyeComponent
     ],
     imports: [
         BrowserModule,
         FormsModule,
-        HttpModule,
-        FutureModule
+        HttpModule
     ],
     providers: [],
     bootstrap: [AppComponent]
