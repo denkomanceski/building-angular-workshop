@@ -1,0 +1,16 @@
+/* You can add global styles to this file, and also import other style files */
+
+.container {
+    background: rgba(123,323,230,0.3);
+    padding: 30px;
+    text-align: center;
+    border: 1px solid darkgreen;
+    margin: 10px;
+}
+.container-feature {
+    background: rgba(535,25,230,0.3);
+    padding: 30px;
+    text-align: center;
+    border: 1px solid darkgreen;
+    margin: 10px;
+}
